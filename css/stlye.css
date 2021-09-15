@@ -8,22 +8,20 @@ html {
 }
 
 body {
-    /*font-family: 'Source Sans Pro', sans-serif;*/
     font-family: 'Adobe Clean', sans-serif;
     font-family: 'Adobe Clean Serif', sans-serif;
     font-family: 'Adobe Clean UX', sans-serif;
+
     color: #354052;
 }
 
 #main-content {
     display: grid;
-    /* height: 100vh; */
     grid-template: 8vh 60vh 100vh/ 25vw 35vw 35vw;
     grid-template-areas: "menu menu menu"
         "sidebar header header"
         "sidebar gallery gallery"
-        "sidebar gallery gallery"
-        "footer footer footer";
+        "sidebar gallery gallery";
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
 }
 
